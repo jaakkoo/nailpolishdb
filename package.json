@@ -1,5 +1,5 @@
 {
-  "name": "Nailpolish Database",
+  "name": "NailpolishDB",
   "version": "0.0.1",
   "description": "Database for nailpolishes",
   "main": "index.js",
