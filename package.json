@@ -8,7 +8,8 @@
   },
   "dependencies": {
     "express": "~4.9.x",
-    "mongoose": "3.8.23"
+    "mongoose": "3.8.23",
+    "jade": "1.9.2"
   },
   "engines": {
     "iojs": "1.2.0"
