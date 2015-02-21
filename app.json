@@ -1,0 +1,7 @@
+{
+  "name": "Nail polish database",
+  "description": "Application for storing nailpolishes and reviews",
+  "repository": "",
+  "logo": "",
+  "keywords": ["iojs", "express"]
+}

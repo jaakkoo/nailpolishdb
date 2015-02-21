@@ -1,0 +1,26 @@
+{
+  "name": "Nailpolish Database",
+  "version": "0.0.1",
+  "description": "Database for nailpolishes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "~4.9.x",
+    "mongoose": "3.8.23"
+  },
+  "engines": {
+    "iojs": "1.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-getting-started"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
