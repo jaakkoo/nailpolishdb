@@ -6,11 +6,11 @@ app.set('port', (process.env.PORT || 5000));
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', function(request, response) {
-  response.render('index', {title: 'Moi', message: 'Miten menee?'});
+  response.render('index', {active: 'Home'});
 });
 
-app.post('/', function(request, response) {
-    response.send('Foo');
+app.get('/about', function(request, response) {
+  response.render('index', {active: 'About'});
 });
 
 app.listen(app.get('port'), function() {
