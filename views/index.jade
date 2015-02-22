@@ -1,22 +1,7 @@
-doctype html
-html
-  head
-    title Nailpolish Database by Wasting Lifestyle
-    style
-      include style.css
-  body
-    #container
-      #navdiv
-        mixin item(title, url)
-          li
-            a(href=url, class=active === title ? 'selected' : '')= title
-        ul.mainlinks
-          +item('Home', '/')
-          +item('Blog', 'http://wastinglifestyle.fi')
-          +item('About', '/about')
-      #content
-        ul#picturelist
-          li Kilppari
-            a(href="#"): img(src="turtleblue.jpg")
-          li Kynsilakka
-            a(href="#"): img(src="lakka.jpg")
+extends ./base.jade
+block content
+  ul#picturelist
+    li Kilppari
+      a(href="#"): img(src="turtleblue.jpg")
+    li Kynsilakka
+      a(href="#"): img(src="lakka.jpg")

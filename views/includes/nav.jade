@@ -1,0 +1,10 @@
+mixin nav_item(title, url)
+  li
+    a(href=url, class=active === title ? 'selected' : '', target=attributes.target)= title
+
+#navdiv
+  ul.mainlinks
+    +nav_item('Home', '/')
+    +nav_item('About', '/about')
+    +nav_item('Blog', 'http://wastinglifestyle.fi')(target="_blank")
+

@@ -10,7 +10,8 @@
     "express": "~4.9.x",
     "mongoose": "3.8.23",
     "jade": "1.9.2",
-    "throng": "1.0.0"
+    "throng": "1.0.0",
+    "markdown": "0.5.0"
   },
   "engines": {
     "iojs": "1.2.0"
