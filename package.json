@@ -9,17 +9,18 @@
   "dependencies": {
     "express": "~4.9.x",
     "mongoose": "3.8.23",
-    "jade": "1.9.2"
+    "jade": "1.9.2",
+    "throng": "1.0.0"
   },
   "engines": {
     "iojs": "1.2.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
+    "url": "https://github.com/jaakkoo/nailpolishdb.git"
   },
   "keywords": [
-    "node",
+    "iojs",
     "heroku",
     "express"
   ],
